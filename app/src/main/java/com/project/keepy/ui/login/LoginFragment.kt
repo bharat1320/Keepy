@@ -1,18 +1,17 @@
-package com.project.keepy.ui
+package com.project.keepy.ui.login
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.project.keepy.R
-import com.project.keepy.databinding.ActivityMainBinding
-import com.project.keepy.databinding.FragmentMainBinding
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import com.project.keepy.databinding.FragmentLoginBinding
+import com.project.keepy.ui.MainFragment
 import com.project.keepy.viewModel.MainViewModel
 
-class MainFragment : Fragment() {
-    lateinit var binding: FragmentMainBinding
+class LoginFragment : Fragment() {
+    lateinit var binding: FragmentLoginBinding
     private lateinit var viewModel: MainViewModel
 
     companion object {
@@ -23,7 +22,7 @@ class MainFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentMainBinding.inflate(inflater,container,false)
+        binding = FragmentLoginBinding.inflate(inflater,container,false)
         return binding.root
     }
 
