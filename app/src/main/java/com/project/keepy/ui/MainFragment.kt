@@ -15,9 +15,9 @@ class MainFragment : Fragment() {
     lateinit var binding: FragmentMainBinding
     private lateinit var viewModel: MainViewModel
 
-    companion object {
-        fun newInstance() = MainFragment()
-    }
+//    companion object {
+//        fun newInstance() : MainFragment = this.newInstance()
+//    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

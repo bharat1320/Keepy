@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "85065758465",
+    "project_id": "keepy-71802",
+    "storage_bucket": "keepy-71802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85065758465:android:e3b90c0764d57b3f1d8d00",
+        "android_client_info": {
+          "package_name": "com.project.keepy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85065758465-s4vgrce72l3ovvqtp1s5b493i38bd1r2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.keepy",
+            "certificate_hash": "a2e57d4bd2d8017b912e99797d1a02f0ee353273"
+          }
+        },
+        {
+          "client_id": "85065758465-h5a8iesd9pthpoiakcjuftvj5k5ruts0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtzueXUkl_c4i9brE3gjY8F7dqAEN7UHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85065758465-h5a8iesd9pthpoiakcjuftvj5k5ruts0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Keepy</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_web_client_id">85065758465-h5a8iesd9pthpoiakcjuftvj5k5ruts0.apps.googleusercontent.com</string>
 </resources>
