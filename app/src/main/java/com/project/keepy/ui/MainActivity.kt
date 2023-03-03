@@ -2,7 +2,6 @@ package com.project.keepy.ui
 
 import android.annotation.SuppressLint
 import android.app.Activity
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -71,7 +70,7 @@ class MainActivity : AppCompatActivity() {
         startGoogleSignIn()
     }
 
-    fun observer() {
+    private fun observer() {
         mainViewModel.callFragment.observe(this) {
             if (it != null) {
                 loadFragment(it)
@@ -83,7 +82,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun startGoogleSignIn() {
+    private fun startGoogleSignIn() {
         var gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.your_web_client_id))
             .requestEmail()
